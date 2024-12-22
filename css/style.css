@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid #d40808;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .highlight {
+    color: #e63946;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e63946;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact .btn {
+    padding: 10px 20px;
+    background: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
